@@ -45,7 +45,7 @@ function NotesClient() {
   return (
     <div className={css.app}>
       <header className={css.toolbar}>
-        <SearchBox value={search} onChange={handleSearch} />
+        <SearchBox  onChange={handleSearch} />
         
         {data && data.totalPages > 1 && (
           <Pagination 
